@@ -14,6 +14,10 @@
 
 ```sh
 npm install
-npm test          # vitest
+npm test          # vitest（単体）＋ playwright（画面。Chromiumを使用）
 npm run typecheck # tsc
+npm run dev       # メモアプリを起動（表示されたURLをパソコンのブラウザで開く）
+npm run build     # dist/ へ出力（npm run preview で確認）
 ```
+
+メモはブラウザのlocalStorage（開いたURLのオリジンごと）に保存されます。同じURLで開くと、閉じた後も登録済みのメモを読み返せます。

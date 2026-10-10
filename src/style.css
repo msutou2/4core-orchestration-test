@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fafafa;
+  color: #222;
+}
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+textarea {
+  box-sizing: border-box;
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.actions p {
+  margin: 0;
+}
+button {
+  font: inherit;
+  padding: 0.4rem 1.2rem;
+}
+.problem {
+  color: #8a3b00;
+}
+#memo-list {
+  list-style: none;
+  padding: 0;
+}
+#memo-list li {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0.5rem;
+}
+.memo-body {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 0 0 0.25rem;
+}
+time {
+  font-size: 0.85em;
+  color: #666;
+}
